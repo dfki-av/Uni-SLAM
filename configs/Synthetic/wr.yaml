@@ -1,0 +1,8 @@
+inherit_from: configs/Synthetic/synthetic.yaml
+mapping:
+  bound: [[-2.6, 3.2],[-0.4, 3.6],[0.5, 8.3]]
+  marching_cubes_bound: [[-2.6, 3.2],[-0.4, 3.6],[0.5, 8.3]]
+data:
+  input_folder: Datasets/neural_rgbd_data/whiteroom
+  depth_folder: 'depth_with_noise'   
+  output: output/Synthetic/wr_depth_noise

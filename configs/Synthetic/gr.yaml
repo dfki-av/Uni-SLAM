@@ -1,0 +1,8 @@
+inherit_from: configs/Synthetic/synthetic.yaml
+mapping:
+  bound: [[-2.6, 5.6],[-0.3, 3.0],[0.2, 5.1]]
+  marching_cubes_bound: [[-2.6, 5.6],[-0.3, 3.0],[0.2, 5.1]]
+data:
+  input_folder: Datasets/neural_rgbd_data/green_room
+  depth_folder: 'depth_with_noise'   
+  output: output/Synthetic/gr_depth_noise

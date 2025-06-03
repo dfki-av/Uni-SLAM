@@ -1,0 +1,8 @@
+inherit_from: configs/Synthetic/synthetic.yaml
+mapping:
+  bound: [[-2.5, 1.1],[-0.3, 1.1],[0.1, 3.9]]
+  marching_cubes_bound: [[-2.5, 1.1],[-0.3, 1.1],[0.1, 3.9]]
+data:
+  input_folder: Datasets/neural_rgbd_data/thin_geometry
+  depth_folder: 'depth_with_noise'   
+  output: output/Synthetic/tg_depth_noise
