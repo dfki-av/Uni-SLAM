@@ -13,8 +13,8 @@
 
 ### [Project Page](https://shaoxiang777.github.io/project/uni-slam/) | [Paper](https://openaccess.thecvf.com/content/WACV2025/html/Wang_Uni-SLAM_Uncertainty-Aware_Neural_Implicit_SLAM_for_Real-Time_Dense_Indoor_Scene_WACV_2025_paper.html)
 
-> [Shaoxiang Wang](https://shaoxiang777.github.io/), 
-  [Yaxu Xie](https://scholar.google.com/citations?user=3ZKuh9EAAAAJ&hl=en), 
+> [Shaoxiang Wang](https://shaoxiang777.github.io/),
+  [Yaxu Xie](https://scholar.google.com/citations?user=3ZKuh9EAAAAJ&hl=en),
   [Chun-Peng Chang](https://chunpeng-chang.github.io/),
   [Christen Millerdurai](https://scholar.google.com/citations?user=8p9OOd0AAAAJ&hl=en&oi=sra),
   [Alain Pagani](https://av.dfki.de/members/pagani/),
@@ -98,7 +98,7 @@ python src/tools/eval_ate.py configs/Replica/room0.yaml
 Uncertainty bar and activated mapping bar are also visualized here.
 
 ### Reconstruction Error
-To evaluate the reconstruction error, first download the ground truth Replica meshes. Those meshes are already culled by `cull_mesh.py` accoding to gt camera pose, to remove unseen and occluded area. 
+To evaluate the reconstruction error, first download the ground truth Replica meshes. Those meshes are already culled by `cull_mesh.py` accoding to gt camera pose, to remove unseen and occluded area.
 
 ```bash
 bash scripts/download_replica_mesh.sh
@@ -126,7 +126,7 @@ Note: `mesh_freq: 50` means extracting a mesh every 50 input frames. Since extra
 
 
 ## Related Repositories
-We would like to extend our gratitude to the authors of [ESLAM](https://github.com/idiap/ESLAM) and [NICE-SLAM](https://github.com/cvg/nice-slam) for their exceptional work. Their code served as a valuable foundation for our own project, and we are appreciative of the 
+We would like to extend our gratitude to the authors of [ESLAM](https://github.com/idiap/ESLAM) and [NICE-SLAM](https://github.com/cvg/nice-slam) for their exceptional work. Their code served as a valuable foundation for our own project, and we are appreciative of the
 effort they put into their work.
 
 ## Contact
@@ -146,4 +146,4 @@ If you find our work useful, please consider citing:
 ```
 
 ### Acknowledgement
-This research has been partially funded by the EU projects CORTEX2 (GA Nr 101070192) and FLUENTLY (GA Nr 101058680). 
+This research has been partially funded by the EU projects CORTEX2 (GA Nr 101070192) and FLUENTLY (GA Nr 101058680).
