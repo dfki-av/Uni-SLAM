@@ -45,10 +45,6 @@ cd Uni-SLAM
 conda create -n unislam python=3.8
 conda activate unislam
 
-# Install the appropriate version of PyTorch based on your CUDA version. 
-# https://pytorch.org/get-started/previous-versions/
-pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
-
 # Install all the dependencies via pip
 pip install -r requirements.txt
 ```

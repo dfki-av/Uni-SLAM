@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cu129
 aspose-3d==24.9.0
 attrs==23.2.0
 backcall==0.2.0
@@ -81,6 +82,9 @@ tifffile==2021.11.2
 tqdm==4.66.2
 traitlets==5.9.0
 trimesh==3.21.5
+torch
+torchvision
+torchaudio
 torchmetrics==1.5.2
 wcwidth==0.2.13
 Werkzeug==2.2.3
