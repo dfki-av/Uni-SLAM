@@ -42,11 +42,14 @@ cd Uni-SLAM
 
 ```bash
 # Create conda environment
-conda create -n unislam python=3.8
+conda create -n unislam python=3.12
 conda activate unislam
 
-# Install all the dependencies via pip
-conda install nvidia::cuda-nvcc nvidia::libcusparse conda-forge::tiny-cuda-nn pytorch3d::pytorch3d
+# Install all the dependencies via conda and pip
+conda config --add channels conda-forge
+conda config --add channels nvidia
+conda config --add channels pytorch3d
+conda install cuda-nvcc libcusparse tiny-cuda-nn pytorch3d pytorch
 pip install -r requirements.txt
 ```
 
