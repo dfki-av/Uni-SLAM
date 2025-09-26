@@ -91,5 +91,3 @@ Werkzeug==2.2.3
 widgetsnbextension==4.0.10
 yacs==0.1.8
 zipp==3.15.0
-tinycudann @ git+https://github.com/NVlabs/tiny-cuda-nn/@2ec562e853e6f482b5d09168705205f46358fb39#subdirectory=bindings/torch
-pytorch3d @ git+https://github.com/facebookresearch/pytorch3d.git@47d5dc88247035b35ca3cfce159565f92d8fbb75

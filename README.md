@@ -46,7 +46,7 @@ conda create -n unislam python=3.8
 conda activate unislam
 
 # Install all the dependencies via pip
-conda install nvidia::cuda-nvcc nvidia::libcusparse
+conda install nvidia::cuda-nvcc nvidia::libcusparse conda-forge::tiny-cuda-nn pytorch3d::pytorch3d
 pip install -r requirements.txt
 ```
 
