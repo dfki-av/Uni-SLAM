@@ -45,12 +45,24 @@ cd Uni-SLAM
 conda create -n unislam python=3.8
 conda activate unislam
 
-# Install the appropriate version of PyTorch based on your CUDA version. 
+# Install the appropriate version of PyTorch based on your CUDA version. (tiny-cuda-nn has strict version requirements.)
 # https://pytorch.org/get-started/previous-versions/
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 
 # Install all the dependencies via pip
 pip install -r requirements.txt
+
+### Following only if you can not install tiny-cuda-nn in requirements.txt ###
+# Build tinycudann 
+git clone --recursive https://github.com/nvlabs/tiny-cuda-nn
+cd tiny-cuda-nn
+
+# (Optional) Reset to a stable version. Try this version if the latest one doesn’t work
+# git reset --hard 91ee479d275d322a65726435040fc20b56b9c991
+
+cd bindings/torch
+python setup.py install
+
 ```
 
 ## Run
